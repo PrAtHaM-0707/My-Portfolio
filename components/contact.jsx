@@ -23,7 +23,6 @@ export default function Contact() {
       setStatus("❌ Failed to send message. Try again later.")
     }
 
-    // Hide status after 2 seconds
     setTimeout(() => {
       setStatus(null)
     }, 2000)
@@ -73,7 +72,7 @@ export default function Contact() {
             </label>
             <button
               type="submit"
-              className="mt-5 inline-flex items-center justify-center rounded-md border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-200 hover:border-cyan-400/50 hover:text-white transition"
+              className="mt-5 inline-flex items-center justify-center rounded-md border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-200 hover:border-cyan-400/50 hover:text-white transition cursor-pointer"
             >
               Send Message
             </button>
